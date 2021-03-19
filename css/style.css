@@ -35,17 +35,36 @@ li > a{
     text-transform: uppercase;
     padding-right: 10px;
 }
+/* sezione centrale */
 .main_section {
     background-color: red;
     margin: auto;
     width: 90%;
-    height: 500px;
 }
 article{
     background-color: sandybrown;
     margin: auto;
     width: 90%;
-    height: 250px;
+}
+#yoga_girl{
+    height: 650px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.img_container {
+    position: relative;
+    text-align: left;
+}
+.bottom_right {
+    position: absolute;
+    bottom: 66px;
+    left: 66px;
+    color: white;
+    width: 50%;
+}
+#strong {
+    font-size: 40px;
 }
 /* sezione sidebar */
 .sidebar {
