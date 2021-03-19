@@ -11,7 +11,6 @@
 }
 .container{
     margin: auto;
-    height: 1500px;
 }
 /* header */
 .testata{
@@ -23,7 +22,9 @@
 .navigation_section {
     width: 90%;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 /* list items */
 li {
@@ -33,7 +34,7 @@ li > a{
     text-decoration: none;
     color: lightgray;
     text-transform: uppercase;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 /* sezione centrale */
 
@@ -44,7 +45,8 @@ li > a{
 .article{
     width: 90%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #yoga_girl{
     height: 650px;
@@ -71,6 +73,7 @@ li > a{
     width: 90%;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .sidebar_general{
     float: left;
