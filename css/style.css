@@ -16,10 +16,9 @@
 }
 /* header */
 .testata{
-    background-color: lightblue;
     width: 90%;
-    height: 150px;
     margin: auto;
+    padding-bottom: 10px;
 }
 /* sezione pulsanti navigazione */
 .navigation_section {
