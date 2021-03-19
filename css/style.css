@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    background-color: grey;
+    margin: auto;
+    height: 1500px;
+}
+/* header */
+.testata{
+    background-color: lightblue;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
+/* sezione pulsanti navigazione */
+.navigation_section {
+    width: 90%;
+    margin: auto;
+}
+/* list items */
+li {
+    display: inline-block;
+}
+li > a{
+    text-decoration: none;
+    color: lightgray;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+.main_section {
+    background-color: red;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+}
+article{
+    background-color: sandybrown;
+    margin: auto;
+    width: 90%;
+    height: 250px;
+}
+/* sezione sidebar */
+.sidebar {
+    width: 90%;
+    background-color: greenyellow;
+    margin: auto;
+}
+.sidebar_general{
+    float: left;
+    height: 350px;
+    margin: auto;
+}
+.sidebar_left{
+    background-color: green;
+    width: 25%;
+}
+.sidebar_center {
+    background-color: white;
+    width: 50%;
+}
+.sidebar_right {
+    background-color: red;
+    width: 25%;
+}
+/* footer */
+.closing {
+    background-color: teal;
+    width: 90%;
+    margin: auto;
+    height: 150px;
+}
