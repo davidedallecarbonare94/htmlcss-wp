@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+    font-family: 'Roboto', sans-serif;}
 
 .clearfix::after {
     content: "";
@@ -41,10 +41,11 @@ li > a{
     margin: auto;
     width: 90%;
 }
-article{
+.article{
     background-color: sandybrown;
     margin: auto;
     width: 90%;
+    margin: auto;
 }
 #yoga_girl{
     height: 650px;
