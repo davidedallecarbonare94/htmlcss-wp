@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;}
 
 .clearfix::after {
     content: "";
@@ -11,6 +11,7 @@
 }
 .container{
     margin: auto;
+    width: 75%;
 }
 /* header */
 .testata{
@@ -48,11 +49,16 @@ li > a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#yoga_girl{
+.subtitle{
+    color: #979797
+}
+.yoga_girl{
     height: 650px;
     width: 100%;
-    border-radius: 10px;
+    
     object-fit: cover;
+    opacity: 0.5;
+    background-color: black;
 }
 .img_container {
     position: relative;
@@ -60,7 +66,7 @@ li > a{
 }
 .bottom_right {
     position: absolute;
-    bottom: 66px;
+    bottom: 80px;
     left: 66px;
     color: white;
     width: 50%;
@@ -81,12 +87,15 @@ li > a{
 .sidebar_left{
     width: 22.5%;
 }
-.sidebar_center {
+.central_column {
     width: 40%;
     margin: 0% 7.5%;
 }
 .sidebar_right {
     width: 22.5%;
+}
+.text_column{
+    margin-top: 10px;
 }
 .img_sidebar {
     width: 100%;
@@ -96,19 +105,14 @@ li > a{
     opacity: 0.5;
 }
 .backgroundcolor{
-    background-color: lightgray;
+    background-color: rgba(204, 204, 204, 1);
     border-radius: 10px;
 }
-.lorem {
-    margin: 10px 0px;
-}
+
 /* footer */
 .closing {
     width: 90%;
     margin: 0 auto;
     text-align: center;
-}
-#closingline {
-    color: lightgray;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
